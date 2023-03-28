@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="public/css/prefixed/style.css" type="text/css" rel="stylesheet">
+        <link href="public/images/logo/ohmyfood@2x.svg" type="image/x-icon" rel="shortcut icon" >
+        <script src="https://kit.fontawesome.com/bfd472c0be.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ohmyfood</title>
+    </head>
+    <body>
+        <div class="loader">
+            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        </div>
+        <header class="head">
+            <div class="head__logo"><a href="#"><img src="public/images/logo/ohmyfood@2x.svg" alt="Logo"></a></div>
+        </header>
+        <form class="find" action="#">
+            <div class="find__container">
+                <button class="find__btn" type="submit"><i class="fas fa-map-marker-alt"></i></button>
+                <input type="search" placeholder="Paris, Belleville" name="location-search">
+            </div> 
+        </form>
+        <section class="introduction">
+            <h2 class="introduction__heading">Book the menu you like</h2>
+            <p class="introduction__byline">Discover top-of-the-art restaurants we picked for you</p>
+            <a class="introduction__nav btn" href="#sec3">Explore our restaurants</a>
+        </section>
+        <section class="directions">
+            <h2 class="directions__heading">How it works</h2>
+            <div class="directions__directions">
+                <a class="directions__links" href="#sec3"><span>1</span><i class="fas fa-mobile-alt"></i>Chose a restaurant</a>
+                <a class="directions__links" href="#"><span>2</span><i class="fas fa-list-ul"></i>Create your menu</a>
+                <a class="directions__links directions__links--active" href="#"><span>3</span><i class="fas fa-store"></i>Go enjoy it at the restaurant</a>
+            </div>
+        </section>
+        
+        <main class="wrapper">
+            <h2 id="sec3" class="wrapper__heading">Restaurants</h2>
+            <div class="restaurant-grid">
+                <div class="restaurant-card dimensions">
+                    <a class="restaurant-card__link" href="page_the-full-palette.html">
+                        <div class="restaurant-card__media">
+                            <img class="restaurant-card__image" src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="" width="400" height="208">
+                            <div class="restaurant-card__media-content">New</div>
+                        </div>
+                        <div class="restaurant-card__primary">
+                            <h3 class="restaurant-card__heading">The Full Palette</h3>
+                            <h4 class="restaurant-card__byline">New York</h4>
+                        </div>
+                    </a>
+                    <div class="restaurant-card__actions">
+                        <div role="button" class="HeartShift" onclick="void(0)" title="Add to favourites">
+                            <div class="HeartShift__bottom"><i class="far fa-heart"></i></div>
+                            <div class="HeartShift__top"><i class="fas fa-heart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant-card dimensions">
+                    <a class="restaurant-card__link" href="page_the-enchanted-plate.html">
+                        <div class="restaurant-card__media">
+                            <img class="restaurant-card__image" src="public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="" width="400" height="208">
+                            <div class="restaurant-card__media-content">New</div>
+                        </div>
+                        <div class="restaurant-card__primary">
+                            <h3 class="restaurant-card__heading">The Enchanted Plate</h3>
+                            <h4 class="restaurant-card__byline">New York</h4>
+                        </div>
+                    </a>
+                    <div class="restaurant-card__actions">
+                        <div role="button" class="HeartShift" onclick="void(0)" title="Add to favourites">
+                            <div class="HeartShift__bottom"><i class="far fa-heart"></i></div>
+                            <div class="HeartShift__top"><i class="fas fa-heart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant-card dimensions">
+                    <a class="restaurant-card__link" href="page_bastille.html">
+                        <div class="restaurant-card__media">
+                            <img class="restaurant-card__image" src="public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="" width="400" height="208">
+                        </div>
+                        <div class="restaurant-card__primary">
+                            <h3 class="restaurant-card__heading">Bastille</h3>
+                            <h4 class="restaurant-card__byline">New York</h4>
+                        </div>
+                    </a>
+                    <div class="restaurant-card__actions">
+                        <div role="button" class="HeartShift" onclick="void(0)" title="Add to favourites">
+                            <div class="HeartShift__bottom"><i class="far fa-heart"></i></div>
+                            <div class="HeartShift__top"><i class="fas fa-heart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant-card dimensions">
+                    <a class="restaurant-card__link" href="page_le-gourmand.html">
+                        <div class="restaurant-card__media">
+                            <img class="restaurant-card__image" src="public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="" width="400" height="208">
+                        </div>
+                        <div class="restaurant-card__primary">
+                            <h3 class="restaurant-card__heading">Le Gourmand</h3>
+                            <h4 class="restaurant-card__byline">New York</h4>
+                        </div>
+                    </a>
+                    <div class="restaurant-card__actions">
+                        <div role="button" class="HeartShift" onclick="void(0)" title="Add to favourites">
+                            <div class="HeartShift__bottom"><i class="far fa-heart"></i></div>
+                            <div class="HeartShift__top"><i class="fas fa-heart"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </main>
+        
+        <footer class="footer">
+            <div class="footer__logo"><a href="#"><img src="public/images/logo/ohmyfood@2x.svg" alt="Logo"></a></div>
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="#"><i class="fas fa-utensils"></i>Suggest a restaurant</a></li>
+                    <li><a href="#"><i class="fas fa-hands-helping"></i>Become a partner</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
