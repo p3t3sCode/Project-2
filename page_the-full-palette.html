@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="public/css/prefixed/style.css" type="text/css" rel="stylesheet">
+        <link href="public/images/logo/ohmyfood@2x.svg" type="image/x-icon" rel="shortcut icon" >
+        <script src="https://kit.fontawesome.com/bfd472c0be.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ohmyfood | The Full Palette</title>
+    </head>
+    <body>
+        <header class="head">
+            <a class="head__back" href="index.html"><i class="fas fa-arrow-left"></i></a>
+            <a class="head__logo" href="#"><img src="public/images/logo/ohmyfood@2x.svg" alt="Logo"></a>
+        </header>
+        <main>
+            <div class="bg">
+                <img src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+            </div>
+            <div class="menu">
+                <div class="menu__name">
+                    The Full Palette
+                    <div role="button" class="HeartShift" onclick="void(0)" title="Add to favorites">
+                        <div class="HeartShift__bottom"><i class="far fa-heart"></i></div>
+                        <div class="HeartShift__top"><i class="fas fa-heart"></i></div>
+                    </div>
+                </div>
+                <form class="menu__form" action="#" method="post" target="_blank">
+
+                    <div class="section">
+                        <div class="section__title">
+                            Entrees
+                            <div class="section__title--accent"></div>
+                        </div>
+                        <div class=" plate section__plate section__plate--1">
+                            <label for="entree-1" ></label>
+                            <input class="plate__select" type="checkbox" id="entree-1" name="entree" value="entree-1"/>
+                            <div class="plate__name">
+                                <h3>Escargots</h3>
+                                <p>with southern French spices</p>
+                            </div>
+                            <div class="plate__price">25€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class=" plate section__plate section__plate--2">
+                            <label for="entree-2" ></label>
+                            <input class="plate__select" type="checkbox" id="entree-2" name="entree" value="entree-2"/>
+                            <div class="plate__name">
+                                <h3>Duck Foie Gras</h3>
+                                <p>with black truffle shavings</p>
+                            </div>
+                            <div class="plate__price">35€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class=" plate section__plate section__plate--3">
+                            <label for="entree-3" ></label>
+                            <input class="plate__select" type="checkbox" id="entree-3" name="entree" value="entree-3"/>
+                            <div class="plate__name">
+                                <h3>Fried egg</h3>
+                                <p>...</p>
+                            </div>
+                            <div class="plate__price">20€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section__title">
+                            Main dish
+                            <div class="section__title--accent"></div>
+                        </div>
+                        <div class=" plate section__plate section__plate--1">
+                            <label for="main-1" ></label>
+                            <input class="plate__select" type="checkbox" id="main-1" name="main" value="main-1"/>
+                            <div class="plate__name">
+                                <h3>Herb-Encrusted Steak</h3>
+                                <p>with delicately sliced and seasoned vegetables</p>
+                            </div>
+                            <div class="plate__price">40€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class=" plate section__plate section__plate--2">
+                            <label for="main-2" ></label>
+                            <input class="plate__select" type="checkbox" id="main-2" name="main" value="main-2"/>
+                            <div class="plate__name">
+                                <h3>Ox Tail Shepard's Pie</h3>
+                                <p>with black truffle and pureed parsnips</p>
+                            </div>
+                            <div class="plate__price">35€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class=" plate section__plate section__plate--3">
+                            <label for="main-3" ></label>
+                            <input class="plate__select" type="checkbox" id="main-3" name="main" value="main-3"/>
+                            <div class="plate__name">
+                                <h3>Filet of Sole</h3>
+                                <p>with citrus dressing</p>
+                            </div>
+                            <div class="plate__price">44€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section__title">
+                            Desserts
+                            <div class="section__title--accent"></div>
+                        </div>
+                        <div class=" plate section__plate section__plate--1">
+                            <label for="dessert-1" ></label>
+                            <input class="plate__select" type="checkbox" id="dessert-1" name="main" value="dessert-2"/>
+                            <div class="plate__name">
+                                <h3>Paris-Brest</h3>
+                                <p>revisited</p>
+                            </div>
+                            <div class="plate__price">18€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class=" plate section__plate section__plate--2">
+                            <label for="dessert-2" ></label>
+                            <input class="plate__select" type="checkbox" id="dessert-2" name="main" value="dessert-2"/>
+                            <div class="plate__name">
+                                <h3>Chocolate Macaroons</h3>
+                                <p>with vanilla ice cream</p>
+                            </div>
+                            <div class="plate__price">22€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class=" plate section__plate section__plate--3">
+                            <label for="dessert-3" ></label>
+                            <input class="plate__select" type="checkbox" id="dessert-3" name="main" value="dessert-3"/>
+                            <div class="plate__name">
+                                <h3>Chocolate Mousse</h3>
+                                <p>with spices and black truffle</p>
+                            </div>
+                            <div class="plate__price">23€</div>
+                            <div class="plate__tick">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="hidden" id="restaurant-name" name="restaurant-name" value="The Full Palette">
+                    <button class="btn form__submit" type="submit">Order</button>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__logo"><a href="#"><img src="public/images/logo/ohmyfood@2x.svg" alt="Logo"></a></div>
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="#"><i class="fas fa-utensils"></i>Suggest a restaurant</a></li>
+                    <li><a href="#"><i class="fas fa-hands-helping"></i>Become a partner</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
